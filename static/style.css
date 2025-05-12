@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+h1 {
+    color: darkblue;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin: 10px 0;
+}

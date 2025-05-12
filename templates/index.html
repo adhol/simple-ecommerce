@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple eCommerce</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Products</h1>
+    <ul>
+        {% for product in products %}
+            <li>
+                <a href="/product/{{ product.id }}">{{ product.name }}</a> - ${{ product.price }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
